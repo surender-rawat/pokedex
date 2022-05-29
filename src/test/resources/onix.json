@@ -1,0 +1,306 @@
+{
+  "base_happiness": 50,
+  "capture_rate": 45,
+  "color": {
+    "name": "gray",
+    "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
+  },
+  "egg_groups": [
+    {
+      "name": "mineral",
+      "url": "https://pokeapi.co/api/v2/egg-group/10/"
+    }
+  ],
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/41/"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Opening its large mouth, it ingests\nmassive amounts of soil and creates\nlong tunnels.",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "https://pokeapi.co/api/v2/version/22/"
+      }
+    }],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "いわへびポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      }
+    },
+    {
+      "genus": "돌뱀포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      }
+    },
+    {
+      "genus": "岩蛇寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      }
+    },
+    {
+      "genus": "Pokémon Serpenroc",
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      }
+    },
+    {
+      "genus": "Felsnatter-Pokémon",
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      }
+    },
+    {
+      "genus": "Pokémon Serpiente Roca",
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      }
+    },
+    {
+      "genus": "Pokémon Serpesasso",
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      }
+    },
+    {
+      "genus": "Rock Snake Pokémon",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      }
+    },
+    {
+      "genus": "いわへびポケモン",
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      }
+    },
+    {
+      "genus": "岩蛇宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "https://pokeapi.co/api/v2/generation/1/"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "https://pokeapi.co/api/v2/growth-rate/2/"
+  },
+  "habitat": {
+    "name": "cave",
+    "url": "https://pokeapi.co/api/v2/pokemon-habitat/1/"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 25,
+  "id": 95,
+  "is_baby": false,
+  "is_legendary": false,
+  "is_mythical": false,
+  "name": "onix",
+  "names": [
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "イワーク"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "https://pokeapi.co/api/v2/language/2/"
+      },
+      "name": "Iwark"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "롱스톤"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      },
+      "name": "大岩蛇"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Onix"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Onix"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Onix"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Onix"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Onix"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "イワーク"
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      },
+      "name": "大岩蛇"
+    }
+  ],
+  "order": 103,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "mountain",
+        "url": "https://pokeapi.co/api/v2/pal-park-area/3/"
+      },
+      "base_score": 80,
+      "rate": 10
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 95,
+      "pokedex": {
+        "name": "national",
+        "url": "https://pokeapi.co/api/v2/pokedex/1/"
+      }
+    },
+    {
+      "entry_number": 95,
+      "pokedex": {
+        "name": "kanto",
+        "url": "https://pokeapi.co/api/v2/pokedex/2/"
+      }
+    },
+    {
+      "entry_number": 62,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "https://pokeapi.co/api/v2/pokedex/3/"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "original-sinnoh",
+        "url": "https://pokeapi.co/api/v2/pokedex/5/"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "https://pokeapi.co/api/v2/pokedex/6/"
+      }
+    },
+    {
+      "entry_number": 62,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "https://pokeapi.co/api/v2/pokedex/7/"
+      }
+    },
+    {
+      "entry_number": 71,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "https://pokeapi.co/api/v2/pokedex/9/"
+      }
+    },
+    {
+      "entry_number": 175,
+      "pokedex": {
+        "name": "conquest-gallery",
+        "url": "https://pokeapi.co/api/v2/pokedex/11/"
+      }
+    },
+    {
+      "entry_number": 53,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "https://pokeapi.co/api/v2/pokedex/13/"
+      }
+    },
+    {
+      "entry_number": 95,
+      "pokedex": {
+        "name": "letsgo-kanto",
+        "url": "https://pokeapi.co/api/v2/pokedex/26/"
+      }
+    },
+    {
+      "entry_number": 178,
+      "pokedex": {
+        "name": "galar",
+        "url": "https://pokeapi.co/api/v2/pokedex/27/"
+      }
+    }
+  ],
+  "shape": {
+    "name": "squiggle",
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/2/"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "onix",
+        "url": "https://pokeapi.co/api/v2/pokemon/95/"
+      }
+    }
+  ]
+}

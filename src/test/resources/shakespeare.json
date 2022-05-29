@@ -1,0 +1,10 @@
+{
+  "success": {
+    "total": 1
+  },
+  "contents": {
+    "translated": "shakespeare translation",
+    "text": "Thickly covered\nwith a filthy,\nvile sludge. It\fis so toxic, even\nits footprints\ncontain poison.",
+    "translation": "shakespeare"
+  }
+}

@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: pokemon
+
+server:
+  port: 8080
+  servlet:
+    context-path: /pokemon
+
+pokedex:
+  api:
+    poke_api_url: http://localhost:9000
+    translator_api_url: http://localhost:9000
+  resttemplate:
+    connection:
+      timeout:
+        millisec: 10000
+    socket:
+      timeout:
+        millisec: 10000
+    retry:
+      count: 3
+    backoffpolicy:
+      delay:
+        millisec: 3000
+      multiplier: 2
