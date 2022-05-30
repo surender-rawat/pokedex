@@ -3,7 +3,7 @@ package com.truelayer.pokedex.controller;
 import com.truelayer.pokedex.exceptions.PokemonException;
 import com.truelayer.pokedex.model.PokemonInfo;
 import com.truelayer.pokedex.model.PokemonSpecies;
-import com.truelayer.pokedex.service.PokemonService;
+import com.truelayer.pokedex.service.PokemonServiceImpl;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -32,7 +32,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class PokemonControllerTest {
 
     @MockBean
-    private PokemonService service;
+    private PokemonServiceImpl service;
 
     @Autowired
     MockMvc mockMvc;
@@ -61,6 +61,15 @@ public class PokemonControllerTest {
         String expectedMessage = "no data found";
         String actualMessage = exception.getMessage();
         assertTrue(actualMessage.contains(expectedMessage));
+    }
+
+    @Test
+    @DisplayName("Should return NOT FOUND  when response is null")
+    public void getPokemonBasicInfoNotFoundWhenResponseIsNullFromService() throws Exception {
+        Mockito.when(service.pokemonInfo("ssr")).thenReturn(null);
+            mockMvc.perform(get("/{pokemon}","ssr")).andDo(print())
+                    .andExpect(status().is(404));
+
     }
 
     @Test

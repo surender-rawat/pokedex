@@ -23,10 +23,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 @ExtendWith(MockitoExtension.class)
-public class PokemonServiceTest {
+public class PokemonServiceImplTest {
 
     @InjectMocks
-    PokemonService service;
+    PokemonServiceImpl service;
 
     @Mock
     PokemonClient pokemonClient;

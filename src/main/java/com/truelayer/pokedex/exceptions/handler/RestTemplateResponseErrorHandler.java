@@ -11,6 +11,10 @@ import java.io.IOException;
 import static org.springframework.http.HttpStatus.Series.CLIENT_ERROR;
 import static org.springframework.http.HttpStatus.Series.SERVER_ERROR;
 
+
+/**
+ * This is Rest Template Response handler
+ */
 @Component
 public class RestTemplateResponseErrorHandler
         implements ResponseErrorHandler {

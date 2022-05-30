@@ -20,6 +20,9 @@ import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * This is the configuration class
+ */
 @Configuration
 @Slf4j
 public class PokemonConfiguration {
@@ -64,7 +67,6 @@ public class PokemonConfiguration {
     public RestTemplate restTemplate(HttpClient httpClient) {
         HttpComponentsClientHttpRequestFactory requestFactory = new HttpComponentsClientHttpRequestFactory();
         requestFactory.setHttpClient(httpClient);
-        //return new RestTemplate(requestFactory);
         RestTemplate restTemplate = new RestTemplate(requestFactory);
         restTemplate.getMessageConverters().add(0, createMappingJacksonHttpMessageConverter());
         restTemplate.setErrorHandler(new RestTemplateResponseErrorHandler());
